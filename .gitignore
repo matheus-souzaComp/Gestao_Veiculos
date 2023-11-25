@@ -1,1 +1,26 @@
 venv
+my_venv
+# Arquivos temporários
+*.pyc
+*.pyo
+__pycache__
+
+# Diretório do ambiente virtual (se você estiver usando virtualenv ou venv)
+venv/
+env/
+
+# Arquivos de configuração específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de mídia gerados (se você estiver usando o sistema de arquivos padrão para armazenar arquivos de mídia)
+media/
+
+# Arquivos de log
+*.log
+
+# Banco de dados SQLite (mude isso se você estiver usando um banco de dados diferente)
+db.sqlite3
+
+# Ambiente de desenvolvimento específico
+.env

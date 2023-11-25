@@ -23,28 +23,28 @@
         </div>
         <ul class="nav-list">
           <li>
-            <a href="http://127.0.0.1:8000/servicos/listar_servico/">
+            <a href="{% url 'listar_servico' %}">
               <i class='bx bx-grid-alt'></i>
               <span class="links_name">Página inicial</span>
             </a>
             <span class="tooltip">Página inicial</span>
           </li>
           <li>
-          <a href="http://127.0.0.1:8000/veiculos/">
+          <a href="{% url 'veiculos' %}">
             <i class='bx bx-car' ></i>
             <span class="links_name">Veículos</span>
           </a>
           <span class="tooltip">Veículos</span>
         </li>
         <li>
-            <a href="http://127.0.0.1:8000/motoristas/">
+            <a href="{% url 'motoristas' %}">
               <i class='bx bx-user' ></i>
               <span class="links_name">Operadores</span>
             </a>
             <span class="tooltip">Operadores</span>
           </li>
         <li>
-          <a href="http://127.0.0.1:8000/servicos/novo_servico/">
+          <a href="{% url 'novo_servico' %}">
             <i class='bx bx-chat' ></i>
             <span class="links_name">Serviços</span>
           </a>
